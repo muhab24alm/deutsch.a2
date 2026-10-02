@@ -1,0 +1,7 @@
+{
+  "name": "a2-mohab-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local A2 German study website with Arabic translations",
+  "scripts": {"start": "node serve.cjs", "check": "node --check app.js && node --check data/content.js"}
+}

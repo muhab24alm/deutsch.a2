@@ -1,0 +1,11 @@
+*.pdf
+*.PDF
+node_modules/
+.env
+.env.*
+*.log
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
