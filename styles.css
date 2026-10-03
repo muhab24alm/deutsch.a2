@@ -150,10 +150,29 @@ main{padding:26px 24px 48px}
   font-weight: 700;
 }
 
+.phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--dark);
+  white-space: nowrap;
+}
+
+.phone:hover { background: var(--line); }
+.phone svg { width: 20px; height: 20px; flex: none; }
+
 @media (max-width: 620px) {
   .footer-identity {
     width: 100%;
     align-items: center;
     text-align: center;
   }
+
+  .phone { margin-inline: auto; }
 }
